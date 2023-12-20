@@ -1,0 +1,49 @@
+FeedbackTP [9] FeedbackTN
+FeedbackTP [] ControlTN
+FeedbackTP [] ExplanationsTN
+ControlTP [2] FeedbackTN
+ControlTP [] ControlTN
+ControlTP [] ExplanationsTN
+ExplanationsTP [] FeedbackTN
+ExplanationsTP [] ControlTN
+ExplanationsTP [1] ExplanationsTN
+
+FeedbackTN [6] FeedbackFN
+FeedbackTN [3] ControlFN
+FeedbackTN [2] ExplanationsFN
+ControlTN [] FeedbackFN
+ControlTN [] ControlFN
+ControlTN [] ExplanationsFN
+ExplanationsTN [1] FeedbackFN
+ExplanationsTN [] ControlFN
+ExplanationsTN [] ExplanationsFN
+
+FeedbackFN [7] FeedbackFP
+FeedbackFN [] ControlFP
+FeedbackFN [] ExplanationsFP
+ControlFN [3] FeedbackFP
+ControlFN [] ControlFP
+ControlFN [] ExplanationsFP
+ExplanationsFN [2] FeedbackFP
+ExplanationsFN [] ControlFP
+ExplanationsFN [] ExplanationsFP
+
+---------------------------------------------
+
+Feedback - Feedback - Feedback - Feedback
+Feedback - Feedback - Feedback - Feedback
+Feedback - Feedback - Feedback - Feedback
+Feedback - Feedback - Feedback - Feedback
+Feedback - Feedback - Feedback - Feedback
+//
+Feedback - Feedback - Explanation - Feedback
+Feedback - Feedback - Explanation - Feedback
+//
+Feedback - Feedback - Control - Feedback
+Feedback - Feedback - Control - Feedback
+//
+Control - Feedback - Control - Feedback
+//
+Control - Feedback - Feedback - Feedback
+//
+Explanation - Explanation - Feedback - Feedback
